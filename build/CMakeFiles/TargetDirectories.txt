@@ -1,0 +1,5 @@
+/home/agata/Documents/mp5/build/CMakeFiles/rebuild_cache.dir
+/home/agata/Documents/mp5/build/CMakeFiles/edit_cache.dir
+/home/agata/Documents/mp5/build/CMakeFiles/tests.dir
+/home/agata/Documents/mp5/build/CMakeFiles/mp5.dir
+/home/agata/Documents/mp5/build/CMakeFiles/mp5_src.dir

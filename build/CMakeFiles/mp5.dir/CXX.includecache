@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/classes.h
+iostream
+-
+vector
+-
+deque
+-
+queue
+-
+
+/home/agata/Documents/mp5/main.cpp
+iostream
+-
+vector
+-
+deque
+-
+queue
+-
+classes.h
+/home/agata/Documents/mp5/classes.h
+
