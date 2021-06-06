@@ -21,6 +21,8 @@ gtest/gtest.h
 -
 ../src/classes.h
 /home/agata/Documents/mp5/src/classes.h
+vector
+-
 
 /home/agata/gtest/1.8.1/_/_/package/e019a06362b932ca5d1b082b6c112aa150c88de4/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

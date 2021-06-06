@@ -27,7 +27,7 @@ public:
 	virtual ~QueueOfInts() {}
 };
 
-class SOI_Queue : public StackOfInts
+class SOI_Vector : public StackOfInts
 {
 public:
 	int pop(); // removes the top element on the stack, decrementing its size by one
@@ -35,7 +35,7 @@ public:
 	bool isEmpty(); // returns true if the stack is empty
 	int size(); // returns the count of elements present in the stack
 	int peek() const; // returns the count of elements present in the stack without modifying the stack
-	~SOI_Queue() {}
+	~SOI_Vector() {}
 private:
 	std::vector <int> a;
 };

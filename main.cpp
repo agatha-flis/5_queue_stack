@@ -22,7 +22,7 @@ int main()
 
 	//Stack-Vector
 	std::cout << "metody Stack of Ints with Vector" << std::endl;
-	SOI_Queue svect;
+	SOI_Vector svect;
 	svect.peek();
 	svect.push(3);
 	svect.push(4);

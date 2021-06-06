@@ -4,7 +4,7 @@
 #include <queue>
 #include "classes.h"
 
-int SOI_Queue::pop() // removes the top element on the stack, decrementing its size by one
+int SOI_Vector::pop() // removes the top element on the stack, decrementing its size by one
 {
 	if (isEmpty() == true)
 		return false;
@@ -15,22 +15,22 @@ int SOI_Queue::pop() // removes the top element on the stack, decrementing its s
 	}
 }
 
-void SOI_Queue::push(int x) // inserts a new element at the top of the stack
+void SOI_Vector::push(int x) // inserts a new element at the top of the stack
 {
 	a.push_back(x);
 }
 
-bool SOI_Queue::isEmpty() // returns true if the stack is empty
+bool SOI_Vector::isEmpty() // returns true if the stack is empty
 {
 	return a.size() == 0;
 }
 
-int SOI_Queue::size() // returns the count of elements present in the stack
+int SOI_Vector::size() // returns the count of elements present in the stack
 {
 	return a.size();
 }
 
-int SOI_Queue::peek() const // returns the count of elements present in the stack without modifying the stack
+int SOI_Vector::peek() const // returns the count of elements present in the stack without modifying the stack
 {
 	if (a.size() != 0)
 		return a.back();
@@ -80,12 +80,10 @@ int QOI_Queue::dequeue() // removes the front element of the queue
 	if (q.empty() == 0)
 	{
 		q.pop();
-		return true;
 	}
 	else
 	{
 		std::cout << "kolejka jest pusta" << std::endl;
-		return 0;
 	}
 }
 
@@ -121,12 +119,12 @@ int QOI_Deque::dequeue() // removes the front element of the queue
 	if (d.empty() == 0)
 	{
 		d.pop_front();
-		return true;
+		
 	}
 	else
 	{
 		std::cout << "kolejka jest pusta" << std::endl;
-		return 0;
+		
 	}
 
 }
